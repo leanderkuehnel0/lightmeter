@@ -59,8 +59,8 @@ class MainActivity : ComponentActivity(), SensorEventListener {
 	private var captureRequestBuilder: CaptureRequest.Builder? = null
 
 	// Define ISO and aperture steps
-	private val isoSteps = listOf(100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600)
-	private val apertureSteps = listOf(1.8f, 2.8f, 4f, 5.6f, 8f, 11f, 16f, 22f)
+	private val isoSteps = listOf(3, 4, 5, 6, 12, 25, 100, 200, 400, 800, 1600, 3200, 6400, 12800, 25600)
+	private val apertureSteps = listOf(1.4f, 1.8f, 2.8f, 4f, 5.6f, 8f, 11f, 16f, 22f)
 
 	@Composable
 	fun CameraControlScreen() {
